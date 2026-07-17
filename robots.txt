@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mhzar91-design.github.io/akbar/sitemap.xml
