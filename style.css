@@ -767,3 +767,29 @@ body{
     line-height: 2;
     text-shadow: none;
 }
+.working-hours{
+    max-width:420px;
+    margin:25px auto;
+    background:#ffffff;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    border:2px solid #d8e8d5;
+    text-align:right;
+}
+
+.working-hours h3{
+    color:#2e7d32;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.working-hours p{
+    margin:8px 0;
+    padding-bottom:8px;
+    border-bottom:1px solid #eee;
+}
+
+.working-hours p:last-child{
+    border-bottom:none;
+}
