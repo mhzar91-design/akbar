@@ -48,8 +48,8 @@ header .container{
 }
 
 .logo img{
-    width:70px;
-    height:70px;
+    width:200px;
+    height:200px;
     object-fit:contain;
 }
 
@@ -796,15 +796,7 @@ body{
 body{
     margin: 0;
     font-family: "Vazirmatn", sans-serif;
-
-    background-image:
-        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-        url("images/background.png");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #ffffff; /* یا transparent */
 }
 .service-icon{
     width: 110px;
