@@ -793,3 +793,43 @@ body{
 .working-hours p:last-child{
     border-bottom:none;
 }
+body{
+    margin: 0;
+    font-family: "Vazirmatn", sans-serif;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        url("images/background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.service-icon{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
+    transition: transform .3s;
+}
+
+.card:hover .service-icon{
+    transform: scale(1.08);
+}
+.service-icon{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+.eitaa-icon{
+    border-radius: 12px;
+}
+.social-card img{
+    border-radius: 12px;
+}
